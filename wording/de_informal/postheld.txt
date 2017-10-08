@@ -1,0 +1,19 @@
+Deine Mail an "%(listname)s" mit dem Subject/Betreff
+
+    %(subject)s
+
+wird zurückgehalten, bis der Listenmoderator Deine E-Mail genehmigt.
+
+Der Grund, weshalb eine Genehmigung erforderlich ist:
+
+    %(reason)s
+
+Entweder wird Deine E-Mail in Kürze freigegeben und über die Liste
+verteilt, oder Du erhältst eine Mitteilung über eine Ablehnung durch den
+Moderator.
+
+Du kannst diese E-Mail *zurückziehen*, solange sie noch nicht
+verteilt worden ist. Wenn sie NICHT mehr verteilt werden soll,
+besuche den folgenden Link:
+
+    %(confirmurl)s

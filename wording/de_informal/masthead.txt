@@ -1,0 +1,21 @@
+Um E-Mails an die Liste %(real_name)s zu schicken, nutze
+bitte die Adresse
+
+    %(got_list_email)s
+
+Um sich via Internet von der Liste auszutragen oder in die Liste einzutragen:
+
+    %(got_listinfo_url)s
+
+Oder schicke eine E-Mail mit dem Wort "help" in der Betreffzeile oder im
+Text an
+
+    %(got_request_email)s
+
+Du kannst die Verwalter dieser Liste unter der Adresse
+
+    %(got_owner_email)s
+
+erreichen.
+
+Wenn die Antwort veränderst, bitte verändere auch die Betreffzeile auf etwas Spezifischeres als "Re: Contents of %(real_name)s digest..."

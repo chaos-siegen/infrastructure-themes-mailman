@@ -1,0 +1,11 @@
+Deine Anfrage an die Mailingliste %(listname)s
+
+    %(request)s
+
+wurde vom Listenmoderator mit folgender Begründung abgewiesen:
+
+"%(reason)s"
+
+Fragen oder Kommentare richtest Du bitte an den Listenadministrator:
+
+    %(adminaddr)s

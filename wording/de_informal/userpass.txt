@@ -1,0 +1,24 @@
+Du oder jemand, der sich für Dich ausgibt, hat die Zusendung einer
+Passwort-Erinnerungsmail für Deine Mitgliedschaft auf der Liste
+%(fqdn_lname)s angefordert. Du benötigst dieses Passwort, um Deine
+persönlichen Einstellungen zu ändern, bzw. um dich aus der Liste
+auszutragen.
+
+Dein Passwort für die Liste %(listname)s ist: %(password)s
+
+Die hier eingetragene Mailadresse lautet: %(user)s
+
+Um Deine persönlichen Einstellungen zu ändern, besuche bitte die folgende
+Seite, auf der du dich einloggen musst:
+
+    %(options_url)s
+
+Du kannst auch Änderungen via E-Mail machen, indem Du eine
+E-Mail, die das Wort "help" in der Betreffzeile enthält, sendest:
+
+    %(requestaddr)s
+
+Die automatische Antwort enthält dann detaillierte Instruktionen.
+
+Fragen oder Kommentare sende bitte an den Administrator der Liste
+%(listname)s unter der Adresse %(owneraddr)s.

@@ -1,0 +1,38 @@
+Willkommen auf der Mailingliste %(real_name)s@%(host_name)s!
+
+%(welcome)s
+
+Nachrichten an diese Liste schickst Du bitte an die folgende E-Mail-Adresse:
+
+    %(emailaddr)s
+
+Allgemeine Informationen über die Mailingliste findest Du unter:
+
+    %(listinfo_url)s
+
+Falls Du dein Abonnement ändern wollen, besuche bitte Ihre
+persönliche Einstellungsseite:
+
+    %(optionsurl)s
+%(umbrella)s
+
+Um Mißbrauch vorzubeugen, benötigst Du ein Passwort um den Bezug der
+Mailingliste zu kündigen oder andere Änderungen vorzunehmen. Es lautet:
+
+    %(password)s
+
+Auf der persönlichen Einstellungsseite kannst Du dich über eine Schaltfläche 
+Dein Passwort erneut schicken lassen.
+
+Normalerweise erhältst Du von Mailman jeden Monat eine E-Mail, die Deine
+Abonnements auf %(host_name)s und die Passwörter auflistet.
+Diese Erinnerungsmail enthält auch Informationen darüber, wie Du Dein
+Abonnement kündigen oder Deine Abonnements-Einstellungen ändern kannst.
+
+Für E-Mail-Profis: Du kannst Änderungen auch via E-Mail vornehmen,
+indem Du eine E-Mail an die folgende Adresse schickst, die das Wort "help"
+(ohne Anführungszeichen) in der Betreffzeile oder im Text der E-Mail enthält:
+
+    %(real_name)s-request@%(host_name)s
+
+Du erhältst dann eine Nachricht mit Instruktionen zurück.

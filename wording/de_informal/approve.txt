@@ -1,0 +1,15 @@
+Deine Anfrage an %(requestaddr)s:
+
+    %(cmd)s
+
+wurde an den Besitzer der Mailingliste weitergeleitet.
+
+Das liegt wahrscheinlich daran, dass Du eine sogenannte "geschlossene"
+Liste abonnieren möchtest.
+
+Du wirst eine E-Mail zur Benachrichtigung mit der Entscheidung des
+Listenverwalters über Ihren Abonnementswunsch erhalten.
+
+Bei Fragen kannst Du dich an den Besitzer der Liste wenden:
+
+    %(adminaddr)s

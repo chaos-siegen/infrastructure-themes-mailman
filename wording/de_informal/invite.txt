@@ -1,0 +1,21 @@
+Du wurdest vom Betreiber der Liste %(listname)s eingeladen, dich unter der
+Adresse "%(email)s" in der %(listname)s-Liste auf  %(hostname)s einzutragen.
+
+Du kannst diese Einladung annehmen, indem Du einfach auf diese Nachricht
+antwortest, wobei Du die Betreffzeile nicht verändern darfst.
+
+Alternativ kannst Du auch die folgende Webseite besuchen:
+
+    %(confirmurl)s
+
+Oder Du sendest die folgende Zeile - und *nur* die folgende Zeile - in
+einer neuen Nachricht an %(requestaddr)s:
+
+    confirm %(cookie)s
+
+Bei den meisten E-Mail-Programmen sollte es aber reichen, wenn Du einfach
+auf "Antworten" klickst.
+
+Wenn Du die Einladung nicht annehmen möchtest, dann beachte diese
+Nachricht einfach nicht weiter. Bei Fragen wende Dich bitte an
+%(listowner)s.

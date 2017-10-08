@@ -1,0 +1,498 @@
+<html>
+<head>
+    <link rel="SHORTCUT ICON" href="<mm-favicon>">
+    <title>Persönliche Einstellungen für <MM-Presentable-User> und die Liste <MM-List-Name>
+    </title>
+
+
+
+ <style>
+
+
+      html, body {
+        height: 100%;
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: #002b36;
+        font-family: 'DejaVu Sans', sans-serif;
+        color: #839496;
+      }
+      h1, h2, h3 {
+        margin: 0;
+        padding: 0;
+      }
+      p, ol, ul {
+        margin-top: 0px;
+      }
+      p {
+        line-height: 180%;
+      }
+      a {
+        color: #93a1a1;
+      }
+      a:hover {
+        color: #cb4b16;
+        text-decoration: none;
+      }
+      a img {
+        border: none;
+      }
+      img.border {
+      }
+      img.alignleft {
+        float: left;
+      }
+      img.alignright {
+        float: right;
+      }
+      img.aligncenter {
+        margin: 0px auto;
+        margin-top: -25px;
+        padding-bottom: 10px;
+      }
+      hr {
+        display: none;
+      }
+/** WRAPPER */
+      .container {
+        width: 1000px;
+        margin: 0px auto;
+      }
+/** MENU */
+      #menu {
+        #float: right;
+        #width: 600px;
+        #height: 99px;
+      }
+      #menu ul {
+        #float: right;
+        margin-left: -25px;
+        #padding: 40x 0px;
+        list-style: none;
+        line-height: normal;
+      }
+      #menu li {
+        #float: left;
+        #margin-left: 2em;
+      }
+      #menu a {
+        display: block;
+        padding: 10px 0px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Letter Gothic', sans-serif;
+        font-size: 1.10em;
+        font-weight: 600;
+        color: #839496;
+      }
+      #menu .active a {
+        background: #0091E6;
+        border-radius: 5px;
+        color: #FFFFFF;
+      }
+      #menu a:hover {
+        text-decoration: underline;
+      }
+/** PAGE */
+      #page {
+        overflow: hidden;
+        width: 900px;
+        padding: 50px 30px 30px 30px;
+        background-color: #073642;
+        border-radius: 10px 10px 10px 10px;
+      }
+      #page h2 {
+        margin-bottom: 30px;
+      }
+/** CONTENT */
+      #content {
+        float: right;
+        width: 660px;
+      }
+      #content #onecolumn {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #93a1a1;
+      }
+      #content h2 {
+        letter-spacing: -1px;
+        font-size: 3em;
+      }
+/** SIDEBAR */
+      #sidebar {
+        float: left;
+        width: 220px;
+        padding-top: 0px;
+      }
+      #sidebar #sbox1 {
+        margin-bottom: 40px;
+      }
+      #sidebar #sbox2 {
+        overflow: hidden;
+        margin-bottom: 50px;
+      }
+      #sidebar #sbox3 {
+        overflow: hidden;
+      }
+/** FOOTER */
+      #copyright{
+        overflow: hidden;
+        width: 900px;
+        padding: 50px;
+        #text-shadow: 1px 1px 1px rgba(0,0,0,1);
+      }
+      #copyright a {
+        color: #93a1a1;
+      }
+      #copyright a:hover {
+        color: #cb4b16;
+      }
+/** BODY */
+      #two-column {
+        padding-top: 30px;
+      }
+      .box-content {
+        overflow: hidden;
+        margin-bottom: 2em;
+      }
+      .box-content p {
+        padding-left: 60px;
+      }
+      .title {
+        display: block;
+        padding-left: 60px;
+        padding-bottom: 1em;
+        font-size: 1.70em !important;
+        font-weight: 600;
+        color: #93a1a1;
+      }
+      .title01 {
+        background: no-repeat left top;
+      }
+      .title02 {
+        background: no-repeat left top;
+      }
+      .title03 {
+        background: no-repeat left top;
+      }
+      .title04 {
+        background: no-repeat left top;
+      }
+     .title05 {
+        background: no-repeat left top;
+      }
+
+
+
+    </style>
+
+
+    
+</head>
+<BODY>
+    <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="5">
+    <TR><TD WIDTH="100%"><B>
+        <FONT SIZE=+1>
+        Persönliche Einstellungen von <MM-Presentable-User> für die Liste <MM-List-Name>
+	</FONT></B></TD></TR>
+    </TABLE>
+<p>
+<table width="100%" border="0" cellspacing="5" cellpadding="5">
+    <tr><td>
+        <b>Abonnement-Status von <MM-Presentable-User></b>, Passwort und
+        persönliche Einstellungen für die Liste <MM-List-Name>.
+        </td><td><MM-Form-Start><mm-logout-button><MM-Form-End></td>
+    </tr><tr>
+        <td colspan="2">
+        <MM-Case-Preserved-User>
+
+        <MM-Disabled-Notice>
+
+        <p><mm-results>
+        </td>
+    </tr>
+</table>
+
+<MM-Form-Start>
+<p>
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="5">
+    <TR><TD WIDTH="100%">
+        <FONT>
+        <B>Änderung der Abonnementsinformation für die Liste <MM-List-Name></B>
+	</FONT></TD></TR>
+    <tr><td colspan="2">Du kannst die Adresse unter der Du die Liste
+        beziehst ändern, indem Du die neue Adresse in die Felder unten
+        einträgst. <B>Hinweis:</B> An die neue Adresse wird eine
+        Bestätigungs-E-Mail geschickt und die Änderung muss; bestätigt werden,
+        bevor sie aktiv wird.
+        <p>Bestätigungs-E-Mails verfallen nach ca. <mm-pending-days>.
+
+        <p>Ebenso kannst Du Deinen Anzeigenamen setzen oder ändern (z.B. <em>Wau Holland</em>).
+
+        <p>Wenn Due die Änderungen für alle Deine Abonnements auf <mm-host>
+        vornehmen möchen, aktiviere die Option <em>Global ändern</em>!
+
+        </td></tr>
+    <tr><td><center>
+        <table border="0" cellspacing="2" cellpadding="2" width="80%" cols="2">
+        <tr><td>Neue Adresse:</div></td>
+            <td><mm-new-address-box></td>
+            </tr>
+        <tr><td>Zur Bestätigung nochmal:</div></td>
+            <td><mm-confirm-address-box></td>
+            </tr>
+        </tr></table></center>
+        </td>
+        <td><center>
+        <table border="0" cellspacing="2" cellpadding="2" width="80%" cols="2">
+            <tr><td>Dein Name (optional):</div></td>
+            <td><mm-fullname-box></td>
+            </tr>
+        </table></center>
+        </td>
+        </tr>
+    <tr><td colspan="2"><center><mm-change-address-button>
+        <p><mm-global-change-of-address>Global ändern</center></td>
+    </tr>
+</table>
+
+<p>
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="5" CELLPADDING="5">
+    <TR><TD WIDTH="50%">
+        <B>Abbestellen von <MM-List-Name></B></td>
+
+	<TD WIDTH="50%">
+        <B>Deine anderen Abonnements bei <MM-Host></B>
+	</FONT></TD></TR>
+
+    <tr><td>
+        Aktiviere die Bestätigungs-Checkbox und drücke diesen
+        Knopf, um Ihr Abonnement dieser Mailingliste zu beenden.
+        <strong>Warnung:</strong>
+        Diese Aktion wird sofort aktiv!
+        <p>
+        <center><MM-Unsubscribe-Button></center></td>
+    <td>
+        Du kannst dor eine Liste aller Deine Abonnements auf <mm-host>
+        anzeigen lassen. Benutze dies, falls Du dieselben Änderungen
+        auch für die anderen Listen gelten lassen willst.
+
+        <p>
+        <center><MM-Other-Subscriptions-Submit></center>
+	</TD></TR>
+</table>
+
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="5">
+    <TR><TD COLSPAN=2 WIDTH="100%">
+        <B>Ihr Passwort für die Liste <MM-List-Name></B>
+	</FONT></TD></TR>
+
+    <tr valign="TOP"><td WIDTH="50%">
+        <a name=reminder>
+        <center>
+        <h3>Hast Du Dein Passwort vergessen?</h3>
+        </center>
+        Klicke auf diesen Knopf und Dir wird das Passwort an Deine
+        Adresse zugeschickt.
+        <p><MM-Umbrella-Notice>
+        <center>
+        <MM-Email-My-Pw>
+        </center>
+        </td>
+
+    <td WIDTH="50%">
+        <a name=changepw>
+        <center>
+        <h3>Änderung des Passworts</h3>
+        <TABLE BORDER="0" CELLSPACING="2" CELLPADDING="2" WIDTH="70%" COLS=2>
+            <TR><TD>Neues
+                Passwort:</div></TD>
+                <TD><MM-New-Pass-Box></TD>
+                </TR>
+            <TR>
+                <TD>Nochmal zur Bestätigung:</div></TD>
+                <TD><MM-Confirm-Pass-Box></TD>
+            </TR>
+        </table>
+
+        <MM-Change-Pass-Button>
+        <p><center><mm-global-pw-changes-button>Global ändern
+        </center>
+</TABLE>
+
+<p>
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="5">
+    <TR><TD WIDTH="100%">
+        <B>Ihre persönlichen Einstellungen für <MM-List-Name></B>
+	</FONT></TD></TR>
+</table>
+
+<p>
+<i><strong>Die aktuellen Werte sind mit Häkchen versehen.</strong></i>
+
+<p>Bitte beachte, dass einige der Optionen eine "<em>Global ändern</em>"-Checkbox
+besitzen. Deren Ankreuzen bewirkt, dass die Änderungen für
+jede von Dir abonnierte Mailingliste auf <mm-host> vorgenommen werden.
+Klicke auf <em>Andere Abonnements auflisten</em> um zu sehen, welche
+weitern Abonnements Du hast.
+<p>
+<TABLE BORDER="0" CELLSPACING="3" CELLPADDING="4" WIDTH="100%">
+    <tr><TD>
+        <a name="disable">
+        <strong>Mailzustellung</strong></a><p>
+        Setze diese Option auf <em>An</em> um Nachrichten von der
+        Liste zu empfangen.
+        Setze diese Option auf <em>Aus</em> um keine Nachrichten
+        von der Liste zu empfangen (z.B. weil Du im Urlaub sind)
+	Wenn Du die Mailzustellung ausstellst, vergiss nicht, diese
+        nach Deinem Urlaub wieder anzustellen!
+        </td><td>
+        <mm-delivery-enable-button>An<br>
+        <mm-delivery-disable-button>Aus<p>
+        <mm-global-deliver-button><i>Global ändern</i>
+        </td></tr>
+
+<!--Start-Digests-Delete-->
+    <tr><TD>
+        <strong>Zusammenfassungsmodus</strong><p>
+        Wenn Du den Zusammenfassungsmodus aktivierst, erhältst Du die
+        Nachrichten eines Tages gebündelt anstatt einzeln.
+        Wenn der Zusammenfassungsmodus von "An" auf "Aus" gewechselt wird,
+        erhältst Du noch eine letzte Zusammenfassung.
+        </td><td>
+        <MM-Undigest-Radio-Button>Aus<br>
+        <MM-Digest-Radio-Button>An
+        </td></tr>
+
+    <tr><TD>
+        <strong>MIME- oder Klartext-Zusammenfassungen?</strong><p>
+        Generell sind MIME Zusammenfassungen bevorzugt und empfohlen, aber
+        falls Du ein Problem damit hast, diese zu lesen, kannst Du hier
+        auf Klartext-Zusammenfassungen umsteigen.
+        </td><td>
+        <MM-Mime-Digests-Button>MIME<br>
+        <MM-Plain-Digests-Button>Klartext<p>
+        <mm-global-mime-button><i>Global ändern</i>
+        </td></tr>
+<!--End-Digests-Delete-->
+
+    <tr><TD>
+        <strong>Willst Du Deine eigenen Nachrichten über die Liste zurückerhalten?</strong><p>
+        Normalerweise erhältst du JEDE E-Mail. Wenn Du Deine eigenen E-Mails
+        nicht nochmal sehen möchtest, setze diese Option auf <em>Nein</em>.
+        </td><td>
+        <mm-dont-receive-own-mail-button>Nein<br>
+        <mm-receive-own-mail-button>Ja
+        </td></tr>
+
+    <tr><TD>
+        <strong>Bestätigunsmail wenn Du E-Mails an die Liste schickst?</strong><p>
+        </td><td>
+        <mm-dont-ack-posts-button>Nein<br>
+        <mm-ack-posts-button>Ja
+        </td></tr>
+
+    <tr><td>
+        <strong>Monatliche Erinnerungsmail mit Passwort?</strong><p>
+        Einmal im Monat erhältst Du eine Erinnerungsmail mit Ihrem Passwort
+        für jede Liste, die du abonnierst hast.
+        Du kannst dies auf Listenbasis an- und abstellen, indem Du hier
+        <em>Nein</em> bzw. <em>Ja</em> wählst. Wenn Du die Erinnerungsmail für alle Deine
+        Abonnements abstellst, erhälst Du keinerlei Erinnerungsmails mehr.
+        </td><td>
+        <mm-dont-get-password-reminder-button>Nein<br>
+        <mm-get-password-reminder-button>Ja<p>
+        <mm-global-remind-button><i>Global ändern</i>
+        </td></tr>
+
+    <tr><TD>
+        <strong>In der Liste der Abonnenten unsichtbar machen?</strong><p>
+        Wenn sich jemand die Mitglieder der Liste anzeigen lässt, wird Deine
+        E-Mail-Adresse normalerweise angezeigt (in einer leicht modifizierten
+        Art und Weise um es verdammten Adresssammlern nicht zu leicht zu machen).
+        Wenn Du wünschst, dass Deine Adresse nicht gezeigt wird, wähle
+        hier bitte <em>Ja</em>.
+        </td><td>
+        <MM-Public-Subscription-Button>Nein<br>
+        <MM-Hide-Subscription-Button>Ja
+        </td></tr>
+
+    <tr><TD>
+        <strong>Welche Sprache bevorzugst Du?</strong><p>
+        </td><td>
+        <MM-list-langs>
+        </td></tr>
+
+    <tr><td>
+        <strong>Welche Themen interessieren Dich?</strong><p>
+                Sofern hier rechts Themen aufgelistet sind, kannst Du ein
+                oder mehrere Themen auswählen und damit den
+                Listenverkehr auf der Mailingliste filtern, so dass Du nur
+                einen Teil der Nachrichten empfängst.
+                Wenn eine Nachricht auf ein Thema "passt", dann erhältst Du
+                die Nachricht, ansonsten nicht.
+
+                <p>Wenn eine Nachricht auf kein Thema passt, hängt es
+                von der folgenden Option ab, ob Du keine oder alle
+                Nachrichten erhältst.
+        </td><td>
+        <mm-topics>
+        </td></tr>
+
+    <tr><td>
+        <strong>Möchtest Du Nachrichten erhalten, auf die kein Themen-Filter
+        "passt"?</strong><p>
+
+                Diese Option hat nur Auswirkungen wenn Du oben mindestens
+                ein Thema angegeben haben. Sie gibt an wie die
+                Standardzustellungsregel für Nachrichten lautet, auf die
+                kein Thema passt.
+                Gibst Du hier <em>Nein</em> an, bedeutet dies, dass Du
+                keine Nachrichten erhältst, wenn kein Thema passt,
+                wohingegen <em>Ja</em> bedeutet, dass Du diese Nachrichten
+                doch erhältst!
+
+                <p>Wenn Du gar keine Themen angegeben hast, erhältst Du
+                selbstverständlich alle Nachrichten an die Mailingliste!
+        </td><td>
+        <mm-suppress-nonmatching-topics>Nein<br>
+        <mm-receive-nonmatching-topics>Ja
+        </td></tr>
+
+    <tr><td>
+        <strong>Mehrfache Kopien von Nachrichten vermeiden?</strong><p>
+
+                Wenn Du explizit im Feld <tt>To:</tt> oder <tt>Cc:</tt>
+		im Kopf einer E-Mail aufgeführt bist, kannst Du
+		dich dafür entscheiden, keine Kopie dieser
+		Nachricht über die Mailingliste zu erhalten.
+                Wähle <em>Ja</em>, um mehrfache Kopien zu
+		vermeiden; wähle <em>Nein</em>, um diese
+		Kopien weiterhin zu erhalten.
+
+		<p>Wenn für die Mailingliste
+		mitgliederpersonalisierte Nachrichten eingeschaltet
+		sind und Du dich dafür entschieden hast, Kopien
+		zu erhalten, wird jeder von diesen ein Feld
+		<tt>X-Mailman-Copy: yes</tt> im Header hinzugefügt.
+
+        </td><td>
+        <mm-receive-duplicates-button>Nein<br>
+        <mm-dont-receive-duplicates-button>Ja<p>
+        <mm-global-nodupes-button><i>Global ändern</i>
+        </td></tr>
+
+    <tr><TD colspan="2">
+        <center><MM-options-Submit-button></center>
+        </td></tr>
+
+</table>
+</center>
+<p>
+<MM-Form-End>
+
+<MM-Mailman-Footer>
+</body>
+</html>

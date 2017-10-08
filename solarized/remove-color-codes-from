@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# 2017-09-30 nanooq
+#
+# Takes a file as argument and then prints it out without colorcodes
+#
+
+set -e
+set -u
+
+fileToReplaceFrom="${1}"
+
+
+# From whitespace \s ...
+# ... with none or many upper- or lowercase letters [A-Z] following until...
+# ... \( starting a named block ...
+# ... being ="# ...
+# ... ending named block \) ...
+# ... and then anything .* until " ...
+# ... delete that, well replace that with nothing
+# ... from given file
+sed 's/\s[a-zA-Z]*\(="#\).*"//' $fileToReplaceFrom
